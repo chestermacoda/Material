@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+
+
+        const arvore = [
+            {
+                "nome": "Chadreck",
+                "id": 1,
+                "dataInicio": "2025-05-08T03:00:00.000Z",
+                "status": "Entregue"
+            },
+            {
+                "nome": "Djimo",
+                "id": 13,
+                "dataInicio": "2025-06-03T03:00:00.000Z",
+                "status": "Pendente"
+            }
+        ]
+
+        
+        // for (let index = 0; index < arvore.length; index++) {
+        //     // const element = array[index];
+        //     // alert(arvore[index].nome)
+        //     console.log(arvore[index].nome)
+        // }
+        arvore.map((item)=>{
+            console.log(item.nome) 
+        })
+    </script>
+
+</body>
+
+</html>
